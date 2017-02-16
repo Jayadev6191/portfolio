@@ -1,0 +1,24 @@
+.portfolio-navigation{
+  &__list {
+    list-style: none;
+    float: none;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    &-item {
+      margin: 0 20px;
+    }
+    &--link {
+      padding: 0px 5px;
+      font-size: 15px;
+      line-height: 54px;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      background: transparent;
+      text-decoration: none;
+      color:#3a3c4a;
+      font-family: 'Titillium Web', sans-serif;
+    }
+  }
+}
