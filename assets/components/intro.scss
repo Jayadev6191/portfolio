@@ -46,6 +46,8 @@
         height: 250px;
         -webkit-animation:code 4s infinite;
         -webkit-animation-delay:3s;
+        -webkit-transition: all 0.7s ease;
+        transition: all 0.7s ease;
         img {
           height: 25rem;
         }
