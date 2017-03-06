@@ -5,7 +5,7 @@ export default class Intro extends React.Component {
   render(){
     return (
       <div className='portfolio-intro'>
-            <div className="portfolio-intro--container">
+            <section className="portfolio-intro--container">
               <div className="portfolio-intro--message">
                 <h1 className="in">Hi, I am Jayadev</h1>
                 <p className="in">a Full Stack Web Developer</p>
@@ -20,7 +20,7 @@ export default class Intro extends React.Component {
                   </div>
                 </div>
               </div>
-      			</div>
+      			</section>
       </div>
     )
   }
