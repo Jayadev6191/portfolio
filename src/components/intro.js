@@ -16,7 +16,6 @@ export default class Intro extends React.Component {
                   <div className="portfolio-code--snippet">
                     <img className="portfolio-code--image" src="assets/images/code.gif" alt="" />
                     <img className="portfolio-code--image" src="assets/images/code.gif" alt="" />
-                    <img className="portfolio-code--image" src="assets/images/code.gif" alt="" />
                   </div>
                 </div>
               </div>

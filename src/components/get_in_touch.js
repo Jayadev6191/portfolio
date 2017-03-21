@@ -18,7 +18,7 @@ export default class GetInTouch extends React.Component {
   }
   render(){
     return (
-      <div className='portfolio-get_in_touch'>
+      <div className='portfolio-get_in_touch' id="contact_me">
             <section className="portfolio-get_in_touch--container">
             <div className="portfolio-get_in_touch--header">
               <h1 className="in">Get In Touch</h1>

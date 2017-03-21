@@ -1,10 +1,15 @@
 .portfolio-navigation{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #FFFFFF;
   &__list {
     list-style: none;
-    float: none;
-    text-align: center;
     display: flex;
-    justify-content:center;
+    flex-direction: row;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin: 0;
     &-item {
       margin: 0 20px;
     }

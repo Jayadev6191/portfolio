@@ -1,9 +1,27 @@
 @-webkit-keyframes code{
-	0%{margin-top:0rem;}
-  25%{margin-top:-90rem;}
-  50%{margin-top:-90rem;}
-  70%{margin-top:-135rem;}
-	100%{margin-top:-175rem;}
+	0% {
+    transform: translateY(100%);
+  }
+	20% {
+    transform: translateY(80%);
+  }
+	40% {
+    transform: translateY(60%);
+  }
+	60% {
+    transform: translateY(40%);
+  }
+	80% {
+    transform: translateY(20%);
+  }
+	100% {
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes code-slider{
+	0%{margin-left:20%;}
+	100%{margin-left:0%;}
 }
 
 
@@ -46,10 +64,8 @@
         flex-direction: column;
         justify-content: flex-end;
         height: 250px;
-        // -webkit-animation:code 4s infinite;
-        // -webkit-animation-delay:3s;
-        // -webkit-transition: all 0.7s ease;
-        // transition: all 0.7s ease;
+        -webkit-animation:code 4s linear infinite;
+				animation: code 4s linear infinite;
         img {
           height: 25rem;
 					width: 45rem;

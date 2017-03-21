@@ -14,3 +14,8 @@ html,body {
 @import './components/technology_stack.scss';
 @import './components/other_interests.scss';
 @import './components/get_in_touch.scss';
+
+.portfolio-app {
+  display: flex;
+  flex-direction: column;
+}

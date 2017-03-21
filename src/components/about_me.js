@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 export default class AboutMe extends React.Component {
   render(){
     return (
-      <div className='portfolio-about'>
+      <div className='portfolio-about' id="about_me">
             <section className="portfolio-about--container">
               <div className="portfolio-about--header">
                 <h1 className="in">About Me</h1>

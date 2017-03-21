@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 export default class WhatIDo extends React.Component {
   render(){
     return (
-      <div className='portfolio-what'>
+      <div className='portfolio-what' id="what_i_do">
             <section className="portfolio-what--container">
               <div className="portfolio-what--header">
                 <h1 className="scrollimation scale-in">What I Do</h1>
