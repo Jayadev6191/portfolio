@@ -21,7 +21,7 @@ export default class AboutMe extends React.Component {
               </div>
               <div className="portfolio-about--content">
                 <p className="portfolio-about--hire-me">
-                  <a className="portfolio-about--hire-me-btn" href="#contact">
+                  <a className="portfolio-about--hire-me-btn" href="#contact_me">
                   <i className="fa fa-child"></i>Hire Me</a>
                 </p>
               </div>
